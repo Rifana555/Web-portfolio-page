@@ -1,0 +1,101 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  font-family:"Young Serif";
+}
+.section-one{
+background-color: black;
+  color:white;
+  padding:10px;
+}
+.section-one__contact{
+  background-color: crimson;
+  color: white;
+  text-decoration: none;
+  padding-bottom:5px ;
+  padding-left:10px ;
+  padding-right:10px;
+  padding-top:3px ;
+  display: inline-block;
+  margin-top: 5px;
+}
+.section-one__name{
+  font-size: 40px;
+}
+.section-one__role{
+  font-size:20px;
+  margin-top: 5px;
+}
+.container{
+  padding: 50px;
+}
+.section-two,.section-three,.section-four,.section-five{
+  margin-top: 15px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+  margin-top: 8px;
+}
+.section-five{
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+.section-five__title{
+  color: burlywood;
+}
+.section-three li,.section-four li{
+  list-style: none;
+}
+.section-three{
+   background-color: indianred;
+  color: black;
+  padding: 15px;
+  display: inline-block;
+  height: 200px;
+  border-radius: 7px;
+  vertical-align: top;
+}
+.section-four{
+  background-color: hotpink;
+  color: black;
+  display: inline-block;
+  padding: 15px;
+  height: 200px;
+  vertical-align: top;
+  border-radius: 7px;
+}
+.contact-form{
+  margin-top: 15px;
+}
+.contact-form__input,.contact-form__textarea,.contact-form_submit{
+  margin-top: 10px;
+}
+.contact-form__input{
+  padding: 15px;
+  border: none;
+  border-bottom: solid black 2px;
+}
+.contact-form__textarea{
+  padding: 15px;
+  border:none;
+  border:solid black 2px;
+}
+.contact-form_submit{
+  padding-left:15px ;
+  padding-right:15px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  background-color: orangered;
+  color: black;
+  border: none;
+}
+.section-five__desc{
+  background-color: black;
+  color: turquoise;
+}
+.section-io_topic{
+  background-color: black;
+  color: lawngreen;
+}
